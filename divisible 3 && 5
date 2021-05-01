@@ -1,0 +1,25 @@
+##################..........divisible 3 &&& 5...................
+
+public class AjayAyk
+{
+    static void result(int Num)
+    {    
+        for (int num = 0; num < Num; num++)
+        {    
+            if (num % 3 == 0 && num % 5 == 0)
+                System.out.print(num + " ");
+        }
+    }
+      
+    public static void main(String []args)
+    {
+        int Num = 100;
+        result(Num);
+    }
+}
+
+
+output:
+$javac AjayAyk.java
+$java -Xmx128M -Xms16M AjayAyk
+0 15 30 45 60 75 90 
