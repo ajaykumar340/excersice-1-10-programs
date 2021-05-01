@@ -1,0 +1,22 @@
+@@@@@@@@@@@@@@@..........Array Second Small Elements.....................
+
+import java.util.*;
+public class Ajaykumar
+{
+     public static int getSecondElement(int a[],int total)
+     {
+          Arrays.sort(a);
+          return a[1];
+     }
+     public static void main(String [] args)
+     {
+          int a[]={29,49,36,90,27};
+          System.out.println("secondsmall element:" +getSecondElement(a,5));
+     }
+}
+
+output:
+
+javac Ajaykumar.java
+$java -Xmx128M -Xms16M Ajaykumar
+secondsmall element:29
